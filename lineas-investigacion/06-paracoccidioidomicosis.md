@@ -37,11 +37,11 @@ La insuficiencia suprarrenal (línea [[01-insuficiencia-suprarrenal-primaria]]) 
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | NCBI efetch | `paracoccidioidomycosis adrenal insufficiency` | 25 | REF-26 |
-| 2026-06-21 | NCBI efetch | `paracoccidioidomycosis adrenal gland involvement Addison` | 4 | REF-27 |
-| 2026-06-21 | NCBI efetch | `paracoccidioidomicosis suprarrenal` | 1 | REF-28 |
+| 2026-06-21 | NCBI efetch | `paracoccidioidomycosis adrenal insufficiency` | 25 | [[referencias#REF-26]] |
+| 2026-06-21 | NCBI efetch | `paracoccidioidomycosis adrenal gland involvement Addison` | 4 | [[referencias#REF-27]] |
+| 2026-06-21 | NCBI efetch | `paracoccidioidomicosis suprarrenal` | 1 | [[referencias#REF-28]] |
 | 2026-06-21 | Europe PMC /search | `paracoccidioidomycosis adrenal insufficiency` (core) | 151 | — |
-| 2026-06-21 | Europe PMC EXT_ID | `36625588` (cohorte etiológica) | 1 | REF-23 |
+| 2026-06-21 | Europe PMC EXT_ID | `36625588` (cohorte etiológica) | 1 | [[referencias#REF-23]] |
 
 ## Evidencia de literatura
 

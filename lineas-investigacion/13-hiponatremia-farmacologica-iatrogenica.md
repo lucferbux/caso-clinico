@@ -36,12 +36,12 @@ La hiponatremia está causada o agravada por **fármacos** (omeprazol vía SIADH
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | Europe PMC /search | `drug-induced hyponatremia review mechanisms` | 5113 | REF-59 |
-| 2026-06-21 | Europe PMC /search | `proton pump inhibitor hyponatremia` | 1025 | REF-60 |
-| 2026-06-21 | Europe PMC /search | `proton pump inhibitor induced hyponatremia mechanism SIADH` | 119 | REF-61 |
-| 2026-06-21 | Europe PMC /search | `omeprazole hyponatremia SIADH` | 116 | REF-62 |
-| 2026-06-21 | Europe PMC /search | `excess water intake dilutional hyponatremia potomania` | 20 | REF-63, REF-65 |
-| 2026-06-21 | Europe PMC /search | `hypotonic fluids hospital-acquired hyponatremia` | 371 | REF-64 |
+| 2026-06-21 | Europe PMC /search | `drug-induced hyponatremia review mechanisms` | 5113 | [[referencias#REF-59]] |
+| 2026-06-21 | Europe PMC /search | `proton pump inhibitor hyponatremia` | 1025 | [[referencias#REF-60]] |
+| 2026-06-21 | Europe PMC /search | `proton pump inhibitor induced hyponatremia mechanism SIADH` | 119 | [[referencias#REF-61]] |
+| 2026-06-21 | Europe PMC /search | `omeprazole hyponatremia SIADH` | 116 | [[referencias#REF-62]] |
+| 2026-06-21 | Europe PMC /search | `excess water intake dilutional hyponatremia potomania` | 20 | [[referencias#REF-63]], [[referencias#REF-65]] |
+| 2026-06-21 | Europe PMC /search | `hypotonic fluids hospital-acquired hyponatremia` | 371 | [[referencias#REF-64]] |
 
 ## Evidencia de literatura
 

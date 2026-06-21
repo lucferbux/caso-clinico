@@ -32,8 +32,8 @@ El trastorno hidroelectrolítico responde a una **hiperplasia suprarrenal congé
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | Europe PMC /search | `non-classic congenital adrenal hyperplasia adult` | 2358 | REF-14 |
-| 2026-06-21 | Europe PMC /search | `congenital adrenal hyperplasia salt wasting hyponatremia` | 565 | REF-15 |
+| 2026-06-21 | Europe PMC /search | `non-classic congenital adrenal hyperplasia adult` | 2358 | [[referencias#REF-14]] |
+| 2026-06-21 | Europe PMC /search | `congenital adrenal hyperplasia salt wasting hyponatremia` | 565 | [[referencias#REF-15]] |
 
 ## Evidencia de literatura
 

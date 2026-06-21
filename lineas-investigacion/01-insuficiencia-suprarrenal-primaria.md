@@ -39,10 +39,10 @@ El cuadro se explica mejor por una **insuficiencia suprarrenal primaria** (défi
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-18 | Europe PMC /search | `primary adrenal insufficiency gastrointestinal symptoms presentation nausea vomiting` | 6 | REF-08 (vía 2ª query) |
-| 2026-06-18 | Europe PMC /search | `hyponatremia hyperkalemia primary adrenal insufficiency Addison prevalence` | 6 | REF-01, REF-07 |
-| 2026-06-18 | Europe PMC /search | `primary adrenal insufficiency presenting symptoms hyponatremia frequency diagnostic delay` | 8 | REF-08 |
-| 2026-06-18 | Europe PMC /search | `ext_id:40358484 src:med` (verbatim cohorte) | 1 | REF-07 |
+| 2026-06-18 | Europe PMC /search | `primary adrenal insufficiency gastrointestinal symptoms presentation nausea vomiting` | 6 | [[referencias#REF-08]] (vía 2ª query) |
+| 2026-06-18 | Europe PMC /search | `hyponatremia hyperkalemia primary adrenal insufficiency Addison prevalence` | 6 | [[referencias#REF-01]], [[referencias#REF-07]] |
+| 2026-06-18 | Europe PMC /search | `primary adrenal insufficiency presenting symptoms hyponatremia frequency diagnostic delay` | 8 | [[referencias#REF-08]] |
+| 2026-06-18 | Europe PMC /search | `ext_id:40358484 src:med` (verbatim cohorte) | 1 | [[referencias#REF-07]] |
 
 ## Evidencia de literatura
 

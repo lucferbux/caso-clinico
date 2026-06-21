@@ -36,8 +36,8 @@ La hiponatremia es **hipovolémica**, por pérdidas digestivas (vómitos incoerc
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-18 | Europe PMC /search | `vomiting metabolic alkalosis hypokalemia hypochloremia pathophysiology review` | 6 | REF-06 |
-| 2026-06-18 | Europe PMC fullText BioC | `PMC11828805` (revisión hiponatremia) | — | REF-02 |
+| 2026-06-18 | Europe PMC /search | `vomiting metabolic alkalosis hypokalemia hypochloremia pathophysiology review` | 6 | [[referencias#REF-06]] |
+| 2026-06-18 | Europe PMC fullText BioC | `PMC11828805` (revisión hiponatremia) | — | [[referencias#REF-02]] |
 
 ## Evidencia de literatura
 

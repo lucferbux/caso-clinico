@@ -35,8 +35,8 @@ La hiponatremia hipoosmolar es por **SIADH** (paciente euvolémico, ADH inapropi
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-18 | Europe PMC /search | `nausea vomiting stimulus vasopressin ADH secretion hyponatremia` | 6 | REF-02 |
-| 2026-06-18 | Europe PMC fullText BioC | `PMC11828805` (revisión hiponatremia) | — | REF-02 |
+| 2026-06-18 | Europe PMC /search | `nausea vomiting stimulus vasopressin ADH secretion hyponatremia` | 6 | [[referencias#REF-02]] |
+| 2026-06-18 | Europe PMC fullText BioC | `PMC11828805` (revisión hiponatremia) | — | [[referencias#REF-02]] |
 
 ## Evidencia de literatura
 

@@ -34,11 +34,11 @@
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | Europe PMC /search | `bilateral adrenal metastases primary adrenal insufficiency` | 2277 | REF-34, REF-35 |
-| 2026-06-21 | Europe PMC /search | `primary adrenal lymphoma bilateral adrenal insufficiency` | 2309 | REF-38, REF-39 |
-| 2026-06-21 | Europe PMC /search | `primary adrenal lymphoma imaging bilateral adrenal enlargement CT` | 1443 | REF-37 |
-| 2026-06-21 | Europe PMC /search | `paraneoplastic SIADH small cell lung cancer hyponatremia` | 278 | REF-40, REF-41 |
-| 2026-06-21 | Europe PMC /search | `ectopic ADH secretion malignancy hyponatremia euvolemic` | 70 | REF-42 |
+| 2026-06-21 | Europe PMC /search | `bilateral adrenal metastases primary adrenal insufficiency` | 2277 | [[referencias#REF-34]], [[referencias#REF-35]] |
+| 2026-06-21 | Europe PMC /search | `primary adrenal lymphoma bilateral adrenal insufficiency` | 2309 | [[referencias#REF-38]], [[referencias#REF-39]] |
+| 2026-06-21 | Europe PMC /search | `primary adrenal lymphoma imaging bilateral adrenal enlargement CT` | 1443 | [[referencias#REF-37]] |
+| 2026-06-21 | Europe PMC /search | `paraneoplastic SIADH small cell lung cancer hyponatremia` | 278 | [[referencias#REF-40]], [[referencias#REF-41]] |
+| 2026-06-21 | Europe PMC /search | `ectopic ADH secretion malignancy hyponatremia euvolemic` | 70 | [[referencias#REF-42]] |
 
 ## Evidencia de literatura
 

@@ -36,9 +36,9 @@ La insuficiencia suprarrenal primaria es la manifestación (posiblemente aislada
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | Europe PMC /search | `X-linked adrenoleukodystrophy adrenal insufficiency young men` | 179 | REF-09, REF-12 |
-| 2026-06-21 | Europe PMC /search | `adrenomyeloneuropathy Addison primary adrenal insufficiency` | 132 | REF-10, REF-13 |
-| 2026-06-21 | Europe PMC /search | `adrenoleukodystrophy isolated adrenal insufficiency males VLCFA screening` | 102 | REF-11 |
+| 2026-06-21 | Europe PMC /search | `X-linked adrenoleukodystrophy adrenal insufficiency young men` | 179 | [[referencias#REF-09]], [[referencias#REF-12]] |
+| 2026-06-21 | Europe PMC /search | `adrenomyeloneuropathy Addison primary adrenal insufficiency` | 132 | [[referencias#REF-10]], [[referencias#REF-13]] |
+| 2026-06-21 | Europe PMC /search | `adrenoleukodystrophy isolated adrenal insufficiency males VLCFA screening` | 102 | [[referencias#REF-11]] |
 
 ## Evidencia de literatura
 

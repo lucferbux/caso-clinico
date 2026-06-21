@@ -38,9 +38,9 @@ La insuficiencia suprarrenal primaria es de **etiología autoinmune** (adrenalit
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | Europe PMC /search | `primary adrenal insufficiency Addison diagnosis management guideline 21-hydroxylase` | 15 | REF-16, REF-18, REF-19 |
-| 2026-06-21 | Europe PMC /search | `autoimmune Addison disease 21-hydroxylase antibodies` | 301 | REF-20 |
-| 2026-06-21 | Europe PMC /search | `autoimmune polyendocrine syndrome type 2 adrenal insufficiency Addison` | 177 | REF-17, REF-21, REF-22 |
+| 2026-06-21 | Europe PMC /search | `primary adrenal insufficiency Addison diagnosis management guideline 21-hydroxylase` | 15 | [[referencias#REF-16]], [[referencias#REF-18]], [[referencias#REF-19]] |
+| 2026-06-21 | Europe PMC /search | `autoimmune Addison disease 21-hydroxylase antibodies` | 301 | [[referencias#REF-20]] |
+| 2026-06-21 | Europe PMC /search | `autoimmune polyendocrine syndrome type 2 adrenal insufficiency Addison` | 177 | [[referencias#REF-17]], [[referencias#REF-21]], [[referencias#REF-22]] |
 
 ## Evidencia de literatura
 

@@ -34,9 +34,9 @@ El hipocortisolismo es de origen **central** (déficit de ACTH por hipofisitis, 
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | Europe PMC /search | `secondary adrenal insufficiency hyponatremia normal potassium aldosterone` | 881 | REF-46, REF-47, REF-51 |
-| 2026-06-21 | Europe PMC /search | `hypothyroidism hyponatremia mechanism pathophysiology` | 735 | REF-45 |
-| 2026-06-21 | Europe PMC /search | `AUTH:"Rushworth" AND "adrenal crisis"` | 31 | REF-49 |
+| 2026-06-21 | Europe PMC /search | `secondary adrenal insufficiency hyponatremia normal potassium aldosterone` | 881 | [[referencias#REF-46]], [[referencias#REF-47]], [[referencias#REF-51]] |
+| 2026-06-21 | Europe PMC /search | `hypothyroidism hyponatremia mechanism pathophysiology` | 735 | [[referencias#REF-45]] |
+| 2026-06-21 | Europe PMC /search | `AUTH:"Rushworth" AND "adrenal crisis"` | 31 | [[referencias#REF-49]] |
 
 ## Evidencia de literatura
 

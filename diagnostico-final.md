@@ -78,15 +78,15 @@ Objeciones anticipadas y respuesta:
 
 Registro completo en [`referencias/referencias.md`](referencias/referencias.md) (REF-01 a REF-71).
 
-- **REF-52** — Hipoaldosteronismo: tríada Na↓/K↑/acidosis = firma mineralocorticoide. Front Endocrinol 2022. (cohorte) — *cita central de la defensa.*
-- **REF-16** — Guía Endocrine Society: test corto de ACTH (patrón oro) + anti-21-OH. J Clin Endocrinol Metab 2016. (guía)
-- **REF-29/30/31** — Imagen de la TB adrenal: calcificación solo ~42-50%, aumenta con el tiempo; TB aumenta→atrofia; idiopática atrofia desde el inicio. Eur J Radiol / Endocrinol Jpn. (series)
-- **REF-23/24** — En zona endémica las micosis pueden superar a la TB como causa de Addison (histo 45% vs TB 15%); histo y TB indistinguibles. (cohorte/retrospectivo)
-- **REF-10** — Varón de 32 años con X-ALD (PAI, 21-OH neg, VLCFA altos): caso espejo. JCEM Case Rep 2026. (case report)
-- **REF-21/22** — APS-2 en varón joven con hiponatremia refractaria que cede con fludrocortisona. (case reports)
-- **REF-35/37/38** — Metástasis/linfoma suprarrenal cursan con aumento/masas, no atrofia (descartan la categoría tumoral). (case reports/series)
-- **REF-56/54** — Infarto/SAF antiguo → suprarrenales atrofiadas (reconcilia la vía vascular crónica). (case reports)
-- **REF-63** — Hiponatremia dilucional por agua libre con bajo soluto + riesgo de mielinólisis. Nutrients 2025. (revisión sistemática)
+- [[referencias#REF-52]] — Hipoaldosteronismo: tríada Na↓/K↑/acidosis = firma mineralocorticoide. Front Endocrinol 2022. (cohorte) — *cita central de la defensa.*
+- [[referencias#REF-16]] — Guía Endocrine Society: test corto de ACTH (patrón oro) + anti-21-OH. J Clin Endocrinol Metab 2016. (guía)
+- [[referencias#REF-29]] / [[referencias#REF-30]] / [[referencias#REF-31]] — Imagen de la TB adrenal: calcificación solo ~42-50%, aumenta con el tiempo; TB aumenta→atrofia; idiopática atrofia desde el inicio. Eur J Radiol / Endocrinol Jpn. (series)
+- [[referencias#REF-23]] / [[referencias#REF-24]] — En zona endémica las micosis pueden superar a la TB como causa de Addison (histo 45% vs TB 15%); histo y TB indistinguibles. (cohorte/retrospectivo)
+- [[referencias#REF-10]] — Varón de 32 años con X-ALD (PAI, 21-OH neg, VLCFA altos): caso espejo. JCEM Case Rep 2026. (case report)
+- [[referencias#REF-21]] / [[referencias#REF-22]] — APS-2 en varón joven con hiponatremia refractaria que cede con fludrocortisona. (case reports)
+- [[referencias#REF-35]] / [[referencias#REF-37]] / [[referencias#REF-38]] — Metástasis/linfoma suprarrenal cursan con aumento/masas, no atrofia (descartan la categoría tumoral). (case reports/series)
+- [[referencias#REF-56]] / [[referencias#REF-54]] — Infarto/SAF antiguo → suprarrenales atrofiadas (reconcilia la vía vascular crónica). (case reports)
+- [[referencias#REF-63]] — Hiponatremia dilucional por agua libre con bajo soluto + riesgo de mielinólisis. Nutrients 2025. (revisión sistemática)
 
 ## 7. Próximos pasos de investigación
 

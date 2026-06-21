@@ -37,9 +37,9 @@ Existe **infección tuberculosa** (activa o secuelar reactivada) que actúa como
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-18 | Europe PMC /search | `tuberculosis cause Addison disease primary adrenal insufficiency developing countries` | 6 | REF-04, REF-05 |
-| 2026-06-18 | Europe PMC /search | `adrenal tuberculosis CT imaging size calcification enlargement atrophy` | 6 | REF-03 |
-| 2026-06-18 | Europe PMC fullText BioC | `PMC11919078` (revisión radiológica) | — | REF-03 |
+| 2026-06-18 | Europe PMC /search | `tuberculosis cause Addison disease primary adrenal insufficiency developing countries` | 6 | [[referencias#REF-04]], [[referencias#REF-05]] |
+| 2026-06-18 | Europe PMC /search | `adrenal tuberculosis CT imaging size calcification enlargement atrophy` | 6 | [[referencias#REF-03]] |
+| 2026-06-18 | Europe PMC fullText BioC | `PMC11919078` (revisión radiológica) | — | [[referencias#REF-03]] |
 | 2026-06-18 | Europe PMC /search | `adrenal tuberculosis bilateral enlargement calcification computed tomography atrophy chronic` | 6 | (sin refs nuevas útiles) |
 
 ## Evidencia de literatura

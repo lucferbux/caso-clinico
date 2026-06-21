@@ -36,7 +36,7 @@ El cuadro es **primariamente digestivo**: gastritis crónica por **H. pylori no 
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-18 | (sin búsqueda dedicada en esta sesión) | — | — | REF-07 (reutilizada) |
+| 2026-06-18 | (sin búsqueda dedicada en esta sesión) | — | — | [[referencias#REF-07]] (reutilizada) |
 
 > Nota de honestidad metodológica: en esta sesión NO se ejecutó una búsqueda específica de "obstrucción de salida gástrica / gastroparesia por H. pylori". Pendiente para la próxima iteración si la línea recupera peso (p. ej., si la bioquímica suprarrenal saliera normal).
 

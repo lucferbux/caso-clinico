@@ -32,8 +32,8 @@ La hiponatremia se debe a **hipotiroidismo** (deterioro de la excreción de agua
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | Europe PMC /search | `hyponatremia overt hypothyroidism severity relationship cross-sectional` | 259 | REF-43 |
-| 2026-06-21 | Europe PMC /search | `hypothyroidism hyponatremia mechanism pathophysiology` | 735 | REF-44 |
+| 2026-06-21 | Europe PMC /search | `hyponatremia overt hypothyroidism severity relationship cross-sectional` | 259 | [[referencias#REF-43]] |
+| 2026-06-21 | Europe PMC /search | `hypothyroidism hyponatremia mechanism pathophysiology` | 735 | [[referencias#REF-44]] |
 
 ## Evidencia de literatura
 

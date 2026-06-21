@@ -35,8 +35,8 @@ Los **vómitos crónicos refractarios** corresponden a un trastorno funcional �
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | Europe PMC /search | `cyclic vomiting syndrome adults diagnosis` | 3275 | REF-68, REF-70, REF-71 |
-| 2026-06-21 | Europe PMC /search | `cannabinoid hyperemesis syndrome` | 1076 | REF-69 |
+| 2026-06-21 | Europe PMC /search | `cyclic vomiting syndrome adults diagnosis` | 3275 | [[referencias#REF-68]], [[referencias#REF-70]], [[referencias#REF-71]] |
+| 2026-06-21 | Europe PMC /search | `cannabinoid hyperemesis syndrome` | 1076 | [[referencias#REF-69]] |
 
 ## Evidencia de literatura
 

@@ -35,9 +35,9 @@ La insuficiencia suprarrenal deriva de un **infarto/hemorragia suprarrenal bilat
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | Europe PMC /search | `antiphospholipid syndrome adrenal insufficiency infarction` | 602 | REF-53 |
-| 2026-06-21 | Europe PMC /search | `antiphospholipid adrenal vein thrombosis Addison` | 46 | REF-54, REF-56, REF-57, REF-58 |
-| 2026-06-21 | Europe PMC /search | `catastrophic antiphospholipid syndrome adrenal involvement` | 317 | REF-55 |
+| 2026-06-21 | Europe PMC /search | `antiphospholipid syndrome adrenal insufficiency infarction` | 602 | [[referencias#REF-53]] |
+| 2026-06-21 | Europe PMC /search | `antiphospholipid adrenal vein thrombosis Addison` | 46 | [[referencias#REF-54]], [[referencias#REF-56]], [[referencias#REF-57]], [[referencias#REF-58]] |
+| 2026-06-21 | Europe PMC /search | `catastrophic antiphospholipid syndrome adrenal involvement` | 317 | [[referencias#REF-55]] |
 
 ## Evidencia de literatura
 

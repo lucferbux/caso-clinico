@@ -37,9 +37,9 @@ La insuficiencia suprarrenal está causada por **histoplasmosis diseminada con a
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| 2026-06-21 | NCBI efetch | `histoplasmosis adrenal insufficiency` | 97 | REF-24, REF-25 |
-| 2026-06-21 | NCBI efetch | `disseminated histoplasmosis adrenal Addison` | 33 | REF-23 |
-| 2026-06-21 | NCBI efetch | `cryptococcosis adrenal insufficiency` | 28 | REF-33 |
+| 2026-06-21 | NCBI efetch | `histoplasmosis adrenal insufficiency` | 97 | [[referencias#REF-24]], [[referencias#REF-25]] |
+| 2026-06-21 | NCBI efetch | `disseminated histoplasmosis adrenal Addison` | 33 | [[referencias#REF-23]] |
+| 2026-06-21 | NCBI efetch | `cryptococcosis adrenal insufficiency` | 28 | [[referencias#REF-33]] |
 
 ## Evidencia de literatura
 

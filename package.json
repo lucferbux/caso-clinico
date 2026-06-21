@@ -1,0 +1,21 @@
+{
+  "name": "caso-clinico-web",
+  "version": "1.0.0",
+  "description": "Sitio web del caso clínico — razonamiento clínico multi-línea y adversarial con literatura citable",
+  "private": true,
+  "scripts": {
+    "dev": "npx docsify-cli serve . --port 3001",
+    "start": "npx docsify-cli serve . --port 3001"
+  },
+  "keywords": [
+    "docsify",
+    "clinical-reasoning",
+    "differential-diagnosis",
+    "documentation"
+  ],
+  "author": "Lucas Fernández Aragón",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>🩺 Caso Clínico — Razonamiento y defensa</title>
+  <meta name="description" content="Razonamiento clínico multi-línea y adversarial: diferencial por categorías etiológicas, con literatura citable (PMID/PMCID/DOI).">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0F766E">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩺</text></svg>">
+
+  <!-- Docsify Theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+  <style>
+    /* ============================================================
+       DESIGN TOKENS — clinical teal palette
+       ============================================================ */
+    :root {
+      --theme-color: #0F766E;
+      --sidebar-width: 300px;
+      --sidebar-nav-link-color--active: #0F766E;
+      --sidebar-nav-link-border-color--active: #0F766E;
+
+      --color-primary: #0F766E;
+      --color-primary-light: #CCFBF1;
+      --color-primary-dark: #115E59;
+      --color-success: #15803D;
+      --color-success-light: #DCFCE7;
+      --color-warning: #B45309;
+      --color-warning-light: #FEF3C7;
+      --color-danger: #B91C1C;
+      --color-danger-light: #FEE2E2;
+      --color-info: #0369A1;
+      --color-info-light: #E0F2FE;
+      --color-gray-50: #FAFAFA;
+      --color-gray-100: #F5F5F5;
+      --color-gray-200: #EEEEEE;
+      --color-gray-300: #E0E0E0;
+      --color-gray-400: #BDBDBD;
+      --color-gray-600: #757575;
+      --color-gray-800: #424242;
+
+      --space-xs: 0.25rem;
+      --space-sm: 0.5rem;
+      --space-md: 1rem;
+      --space-lg: 1.5rem;
+      --space-xl: 2rem;
+      --space-2xl: 3rem;
+
+      --radius-sm: 4px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+      --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+    }
+
+    /* ============================================================
+       TYPOGRAPHY
+       ============================================================ */
+    .markdown-section { line-height: 1.7; font-size: 15px; max-width: 920px; }
+
+    .markdown-section h1 {
+      font-weight: 700;
+      margin: var(--space-2xl) 0 var(--space-lg);
+      padding-bottom: var(--space-sm);
+      border-bottom: 3px solid var(--color-primary);
+    }
+    .markdown-section h2 {
+      font-weight: 600;
+      margin: var(--space-xl) 0 var(--space-md);
+      padding-bottom: var(--space-xs);
+      border-bottom: 1px solid var(--color-gray-200);
+    }
+    .markdown-section h3 { font-weight: 600; margin: var(--space-lg) 0 var(--space-sm); color: var(--color-gray-800); }
+    .markdown-section h4 { font-weight: 600; margin: var(--space-md) 0 var(--space-sm); color: var(--color-gray-600); font-size: 0.95em; }
+
+    .markdown-section blockquote {
+      border-left: 4px solid var(--color-primary);
+      background: var(--color-info-light);
+      margin: var(--space-md) 0;
+      padding: var(--space-md) var(--space-lg);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      color: var(--color-gray-800);
+    }
+
+    .markdown-section hr {
+      border: none; height: 1px;
+      background: linear-gradient(to right, transparent, var(--color-gray-300), transparent);
+      margin: var(--space-xl) 0;
+    }
+
+    .app-name-link { font-size: 1.4rem !important; }
+
+    /* ============================================================
+       TABLES
+       ============================================================ */
+    .table-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: var(--space-md) 0; border-radius: var(--radius-md); }
+    .table-wrapper table { margin: 0; }
+
+    table {
+      width: 100%; border-collapse: separate; border-spacing: 0;
+      margin: var(--space-md) 0; border-radius: var(--radius-md);
+      overflow: hidden; box-shadow: var(--shadow-sm);
+      border: 1px solid var(--color-gray-200);
+    }
+    th, td { border: none; border-bottom: 1px solid var(--color-gray-200); padding: 10px 14px; text-align: left; }
+    th {
+      background-color: var(--color-gray-100); font-weight: 600; font-size: 0.85em;
+      text-transform: uppercase; letter-spacing: 0.03em; color: var(--color-gray-600);
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) { background-color: var(--color-gray-50); }
+    tbody tr { transition: background-color 0.15s ease; }
+    tbody tr:hover { background-color: var(--color-primary-light) !important; }
+    td strong { color: var(--color-gray-800); font-weight: 700; }
+
+    /* ============================================================
+       LINKS — internal vs external
+       ============================================================ */
+    .markdown-section a:not(.ref-link):not(.home-nav-card):not(.anchor):not(.sidebar-toggle):not(.pagination-item) {
+      text-decoration: none;
+      border-bottom: 1px solid var(--color-primary-light);
+      transition: border-color 0.15s ease;
+    }
+    .markdown-section a:not(.ref-link):not(.home-nav-card):not(.anchor):not(.sidebar-toggle):not(.pagination-item):hover {
+      border-bottom-color: var(--color-primary);
+    }
+
+    /* ============================================================
+       REFERENCE LINKS — the [ref: REF-NN] citation pills
+       ============================================================ */
+    .ref-tag { white-space: normal; }
+    a.ref-link {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.8em;
+      font-weight: 700;
+      background: var(--color-primary-light);
+      color: var(--color-primary-dark) !important;
+      padding: 1px 6px;
+      margin: 0 1px;
+      border-radius: var(--radius-sm);
+      border-bottom: none !important;
+      white-space: nowrap;
+      text-decoration: none;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+    a.ref-link:hover { background: var(--color-primary); color: #fff !important; }
+    a.ref-link::before { content: "↗"; font-size: 0.85em; margin-right: 2px; opacity: 0.55; }
+
+    a.wiki-link { font-weight: 600; }
+
+    /* When you jump to a REF anchor, flash it so it's easy to spot */
+    .markdown-section .ref-target-highlight {
+      animation: refFlash 2.2s ease;
+      border-radius: var(--radius-sm);
+    }
+    @keyframes refFlash {
+      0%, 35% { background: var(--color-warning-light); box-shadow: 0 0 0 6px var(--color-warning-light); }
+      100% { background: transparent; box-shadow: 0 0 0 6px transparent; }
+    }
+
+    /* ============================================================
+       CLINICAL STATE BADGES (índice tables)
+       ============================================================ */
+    .clin-badge {
+      display: inline-block; padding: 1px 9px; border-radius: 20px;
+      font-size: 0.82em; font-weight: 700; line-height: 1.6; white-space: nowrap;
+    }
+    .clin-badge.ok   { background: var(--color-success-light); color: #166534; }
+    .clin-badge.warn { background: var(--color-warning-light); color: #92400E; }
+    .clin-badge.bad  { background: var(--color-danger-light);  color: #991B1B; }
+    .clin-badge.info { background: var(--color-info-light);    color: #075985; }
+
+    /* ============================================================
+       ALERT BLOCKQUOTES
+       ============================================================ */
+    .markdown-section blockquote.blockquote-warning { border-left-color: var(--color-warning); background: var(--color-warning-light); }
+    .markdown-section blockquote.blockquote-critical { border-left-color: var(--color-danger); background: var(--color-danger-light); }
+
+    /* ============================================================
+       CHECKBOXES
+       ============================================================ */
+    .markdown-section input[type="checkbox"] {
+      appearance: none; -webkit-appearance: none;
+      width: 16px; height: 16px; border: 2px solid var(--color-gray-300);
+      border-radius: var(--radius-sm); vertical-align: middle;
+      margin-right: var(--space-xs); position: relative; cursor: default;
+    }
+    .markdown-section input[type="checkbox"]:checked { background: var(--color-success); border-color: var(--color-success); }
+    .markdown-section input[type="checkbox"]:checked::after {
+      content: '✓'; position: absolute; color: #fff; font-size: 11px; font-weight: 700; top: -1px; left: 1px;
+    }
+
+    .markdown-section code { padding: 2px 6px; border-radius: var(--radius-sm); }
+
+    /* ============================================================
+       HOMEPAGE HERO
+       ============================================================ */
+    .home-hero {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+      color: #fff; border-radius: var(--radius-lg);
+      padding: var(--space-xl) var(--space-2xl); margin-bottom: var(--space-xl);
+      box-shadow: var(--shadow-md);
+    }
+    .home-hero h1 { color: #fff !important; border-bottom: none !important; margin: 0 0 var(--space-sm) !important; padding: 0 !important; font-size: 1.8em; }
+    .home-hero blockquote { background: rgba(255,255,255,0.10); border-left-color: rgba(255,255,255,0.5); color: rgba(255,255,255,0.92); }
+    .home-hero p { color: rgba(255,255,255,0.9); }
+    .home-hero a { color: #fff; border-bottom-color: rgba(255,255,255,0.5); }
+    .home-hero code { background: rgba(255,255,255,0.16); color: #fff; }
+
+    /* ============================================================
+       SEARCH
+       ============================================================ */
+    .search .matching-post { border-bottom: 1px solid var(--color-gray-200); }
+    .search input { border-radius: var(--radius-md) !important; }
+
+    @media (min-width: 769px) {
+      body:not(.close) .sidebar-toggle { opacity: 0.3; }
+      body:not(.close) .sidebar-toggle:hover { opacity: 1; }
+    }
+
+    /* ============================================================
+       PAGINATION
+       ============================================================ */
+    .docsify-pagination-container { border-top: 2px solid var(--color-gray-200) !important; margin-top: var(--space-2xl) !important; padding-top: var(--space-lg) !important; }
+    .pagination-item-title { font-weight: 600 !important; color: var(--color-primary) !important; }
+
+    /* ============================================================
+       MOBILE
+       ============================================================ */
+    @media (max-width: 768px) {
+      .sidebar { padding-top: 10px; }
+      .markdown-section { padding: var(--space-md) !important; font-size: 14px; }
+      .markdown-section h1 { font-size: 1.5em; }
+      .markdown-section h2 { font-size: 1.25em; }
+      th, td { padding: 8px 10px; font-size: 0.9em; }
+
+      .markdown-section .table-wrapper table,
+      .markdown-section .table-wrapper thead,
+      .markdown-section .table-wrapper tbody,
+      .markdown-section .table-wrapper tr,
+      .markdown-section .table-wrapper th,
+      .markdown-section .table-wrapper td { display: revert !important; }
+      .markdown-section .table-wrapper thead { display: table-header-group !important; }
+      .markdown-section .table-wrapper tbody { display: table-row-group !important; }
+      .markdown-section .table-wrapper tr { display: table-row !important; }
+      .markdown-section .table-wrapper th,
+      .markdown-section .table-wrapper td { display: table-cell !important; padding: 8px 10px !important; text-align: left !important; float: none !important; width: auto !important; margin: 0 !important; }
+      .markdown-section .table-wrapper td::before,
+      .markdown-section .table-wrapper th::before { content: none !important; display: none !important; }
+      .home-hero { padding: var(--space-lg); }
+      .home-hero h1 { font-size: 1.4em; }
+    }
+
+    @media print {
+      .sidebar, .sidebar-toggle { display: none; }
+      .content { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Cargando el caso clínico...</div>
+
+  <script>
+    // ================================================================
+    //  clinicLinksPlugin — makes citations & wiki-links clickable
+    //
+    //  Source markdown uses three conventions that vanilla Docsify
+    //  cannot resolve:
+    //    1. [ref: REF-52]  /  [ref: REF-29, REF-30, REF-31]   (labels)
+    //    2. [[referencias#REF-NN]]                            (wiki link to a ref)
+    //    3. [[01-slug]] / [[lineas-investigacion/00-INDICE]]  (wiki link to a línea)
+    //  This plugin:
+    //    - gives every "### [REF-NN] …" heading a stable id `ref-NN`,
+    //    - rewrites the three forms above into real <a> anchors,
+    //    - flashes the target reference when you arrive via ?id=ref-NN.
+    // ================================================================
+    function clinicLinksPlugin(hook, vm) {
+
+      // Phase 1 — stable anchor id for each reference heading.
+      // "### [REF-12] Title"  ->  "### [REF-12] Title :id=ref-12"
+      hook.beforeEach(function (content) {
+        return content.replace(
+          /^(#{1,6}[ \t]*\[REF-(\d+)\][^\n]*?)[ \t]*$/gim,
+          function (full, line, num) {
+            return /:id=/.test(line) ? line : line + ' :id=ref-' + num;
+          }
+        );
+      });
+
+      function refHref(num) { return '#/referencias/referencias?id=ref-' + num; }
+
+      function makeRefAnchor(label) {            // label like "REF-52"
+        var num = (label.match(/\d+/) || [''])[0];
+        var a = document.createElement('a');
+        a.className = 'ref-link';
+        a.href = refHref(num);
+        a.title = 'Ir a la referencia ' + label;
+        a.textContent = label;
+        return a;
+      }
+
+      function makeWikiAnchor(inner) {
+        inner = inner.trim();
+        var rm = inner.match(/^referencias\s*#\s*REF-(\d+)$/i);
+        if (rm) {
+          var ar = document.createElement('a');
+          ar.className = 'ref-link';
+          ar.href = refHref(rm[1]);
+          ar.title = 'Ir a la referencia REF-' + rm[1];
+          ar.textContent = 'REF-' + rm[1];
+          return ar;
+        }
+        var a = document.createElement('a');
+        a.className = 'wiki-link';
+        var path = inner.replace(/\.md$/i, '');
+        a.href = (path.indexOf('/') !== -1)
+          ? '#/' + path.replace(/^\//, '')           // path-qualified, from root
+          : '#/lineas-investigacion/' + path;        // bare slug -> a línea
+        a.textContent = inner;
+        return a;
+      }
+
+      function buildFragment(text) {
+        var re = /\[\[([^\]]+)\]\]|\[ref:\s*([^\]]+)\]/g;
+        var frag = document.createDocumentFragment();
+        var last = 0, m, any = false;
+        while ((m = re.exec(text))) {
+          any = true;
+          if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+          if (m[1] != null) {
+            frag.appendChild(makeWikiAnchor(m[1]));
+          } else {
+            var span = document.createElement('span');
+            span.className = 'ref-tag';
+            span.appendChild(document.createTextNode('[ref: '));
+            m[2].split(',').forEach(function (part, i, arr) {
+              var label = part.trim();
+              var rm = label.match(/REF-\d+/i);
+              span.appendChild(rm ? makeRefAnchor(rm[0].toUpperCase()) : document.createTextNode(label));
+              if (i < arr.length - 1) span.appendChild(document.createTextNode(', '));
+            });
+            span.appendChild(document.createTextNode(']'));
+            frag.appendChild(span);
+          }
+          last = re.lastIndex;
+        }
+        if (!any) return null;
+        if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+        return frag;
+      }
+
+      // Phase 2 — swap the patterns for anchors.
+      hook.doneEach(function () {
+        var root = document.querySelector('.markdown-section');
+        if (!root) return;
+
+        // Pass A — inline <code> citation pills (e.g. `[ref: REF-52]`,
+        // `[[referencias#REF-07]]`) become clean clickable refs. Fenced
+        // code blocks (inside <pre>, the format/template examples) are
+        // left untouched, as are non-reference tags like `[caso]`.
+        [].forEach.call(root.querySelectorAll('code'), function (code) {
+          if (code.closest('pre')) return;
+          var t = (code.textContent || '').trim();
+          var isRefLabel = /^\[ref:\s*[^\]]*REF-\d+[^\]]*\]$/i.test(t);
+          var isRefWiki  = /^\[\[\s*referencias\s*#\s*REF-\d+\s*\]\]$/i.test(t);
+          if (!isRefLabel && !isRefWiki) return;
+          var frag = buildFragment(t);
+          if (frag) code.parentNode.replaceChild(frag, code);
+        });
+
+        // Pass B — plain text nodes (skip links, inline code, code blocks).
+        var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+          acceptNode: function (node) {
+            if (!node.nodeValue || !/\[\[[^\]]+\]\]|\[ref:\s*[^\]]+\]/.test(node.nodeValue)) {
+              return NodeFilter.FILTER_REJECT;
+            }
+            var p = node.parentNode;
+            while (p && p !== root) {
+              var t = p.nodeName;
+              if (t === 'A' || t === 'CODE' || t === 'PRE') return NodeFilter.FILTER_REJECT;
+              p = p.parentNode;
+            }
+            return NodeFilter.FILTER_ACCEPT;
+          }
+        });
+
+        var nodes = [], n;
+        while ((n = walker.nextNode())) nodes.push(n);
+        nodes.forEach(function (node) {
+          var frag = buildFragment(node.nodeValue);
+          if (frag) node.parentNode.replaceChild(frag, node);
+        });
+
+        // Flash the reference we navigated to (?id=ref-NN).
+        var mm = (location.hash || '').match(/[?&]id=(ref-\d+)/i);
+        if (mm) {
+          var el = document.getElementById(mm[1].toLowerCase());
+          if (el) {
+            el.classList.add('ref-target-highlight');
+            setTimeout(function () { el.classList.remove('ref-target-highlight'); }, 2200);
+          }
+        }
+      });
+    }
+
+    // ================================================================
+    //  clinicBadgePlugin — pill badges for línea states in tables
+    // ================================================================
+    function clinicBadgePlugin(hook, vm) {
+      hook.doneEach(function () {
+        var content = document.querySelector('.markdown-section');
+        if (!content) return;
+        var map = [
+          { re: /\breforzada\b/i,                 cls: 'ok' },
+          { re: /\bdescartada\b/i,                cls: 'bad' },
+          { re: /\bdebilitada\b/i,                cls: 'warn' },
+          { re: /\b(abierta|en investigaci[oó]n)\b/i, cls: 'info' }
+        ];
+        content.querySelectorAll('td').forEach(function (cell) {
+          if (cell.querySelector('.clin-badge')) return;
+          var html = cell.innerHTML;
+          for (var i = 0; i < map.length; i++) {
+            var m = html.match(map[i].re);
+            if (m) { cell.innerHTML = html.replace(m[0], '<span class="clin-badge ' + map[i].cls + '">' + m[0] + '</span>'); break; }
+          }
+        });
+      });
+    }
+
+    // ================================================================
+    //  alertPlugin — warning/critical styling for ⚠️ / 🔴 blockquotes
+    // ================================================================
+    function alertPlugin(hook, vm) {
+      hook.doneEach(function () {
+        var content = document.querySelector('.markdown-section');
+        if (!content) return;
+        content.querySelectorAll('blockquote').forEach(function (bq) {
+          if (bq.classList.contains('blockquote-warning') || bq.classList.contains('blockquote-critical')) return;
+          var text = bq.textContent || '';
+          if (/^\s*⚠️/.test(text)) bq.classList.add('blockquote-warning');
+          else if (/^\s*🔴/.test(text) || text.indexOf('CRÍTICO') !== -1) bq.classList.add('blockquote-critical');
+        });
+      });
+    }
+
+    // ================================================================
+    //  responsiveTablePlugin — wrap tables for horizontal scroll
+    // ================================================================
+    function responsiveTablePlugin(hook, vm) {
+      hook.doneEach(function () {
+        var content = document.querySelector('.markdown-section');
+        if (!content) return;
+        content.querySelectorAll('table').forEach(function (table) {
+          if (table.parentNode.classList && table.parentNode.classList.contains('table-wrapper')) return;
+          var wrapper = document.createElement('div');
+          wrapper.className = 'table-wrapper';
+          table.parentNode.insertBefore(wrapper, table);
+          wrapper.appendChild(table);
+        });
+      });
+    }
+
+    // ================================================================
+    //  homeHeroPlugin — wrap title + intro on the homepage in a hero
+    // ================================================================
+    function homeHeroPlugin(hook, vm) {
+      hook.doneEach(function () {
+        var path = (vm.route && vm.route.path) || '';
+        if (path !== '/' && path !== '' && path !== '/README') return;
+        var content = document.querySelector('.markdown-section');
+        if (!content || content.querySelector('.home-hero')) return;
+        var h1 = content.querySelector('h1');
+        if (!h1) return;
+        var hero = document.createElement('div');
+        hero.className = 'home-hero';
+        h1.parentNode.insertBefore(hero, h1);
+        hero.appendChild(h1);
+        var next = hero.nextElementSibling;
+        while (next && next.tagName !== 'H2') { var cur = next; next = next.nextElementSibling; hero.appendChild(cur); }
+      });
+    }
+
+    // ================================================================
+    //  DOCSIFY CONFIG
+    // ================================================================
+    window.$docsify = {
+      name: '🩺 Caso Clínico',
+      repo: 'https://github.com/lucferbux/caso-clinico',
+      relativePath: true,
+
+      loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/_sidebar.md': '/_sidebar.md'
+      },
+      subMaxLevel: 3,
+      autoHeader: true,
+      sidebarDisplayLevel: 0,
+      auto2top: true,
+      maxLevel: 4,
+
+      search: {
+        placeholder: 'Buscar en el caso...',
+        noData: 'Sin resultados',
+        paths: 'auto',
+        depth: 4
+      },
+
+      pagination: {
+        previousText: '← Anterior',
+        nextText: 'Siguiente →',
+        crossChapter: true
+      },
+
+      themeColor: '#0F766E',
+
+      copyCode: {
+        buttonText: 'Copiar',
+        errorText: 'Error',
+        successText: 'Copiado'
+      },
+
+      plugins: [
+        clinicLinksPlugin,
+        clinicBadgePlugin,
+        alertPlugin,
+        responsiveTablePlugin,
+        homeHeroPlugin
+      ]
+    }
+  </script>
+
+  <!-- Docsify core -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/emoji.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+
+  <!-- Sidebar collapse -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <!-- Prism syntax highlighting -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+</body>
+</html>

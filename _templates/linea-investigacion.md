@@ -33,7 +33,7 @@
 
 | Fecha | Endpoint | Query | Nº hits | Refs útiles |
 |-------|----------|-------|---------|-------------|
-| AAAA-MM-DD | Europe PMC /search | `<query>` | N | REF-NN, ... |
+| AAAA-MM-DD | Europe PMC /search | `<query>` | N | [[referencias#REF-NN]], ... |
 
 ## Evidencia de literatura
 

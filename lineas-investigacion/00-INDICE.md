@@ -2,7 +2,9 @@
 
 > Tablero de estado del diferencial. Se actualiza en cada ejecución de `/clinic-diagnose`. Cada línea tiene su propio fichero con pensamiento, búsquedas y evidencia.
 >
-> **Actualizado 2026-06-21 — 2ª ronda: diferencial reorganizado por CATEGORÍAS ETIOLÓGICAS, con favor/contra y literatura ampliada (REF-09 a REF-71).** 16 líneas; ninguna categoría queda sin candidatos o sin justificación de descarte.
+> **Actualizado 2026-06-22 — versión final: caso de razonamiento → respuesta = TB.** Confirmado el síndrome (01 IS primaria), la **etiología a defender es la tuberculosa (05)** por gestalt clínico: Paraguay endémico + Quantiferon+ + huella TB radiológica + criterios dx de TB suprarrenal cumplidos sin cultivo `[ref: REF-72]`. Las pruebas confirmatorias (cortisol/ACTH, anti-21-OH, cultivo) **no se aportan** a propósito (es un caso para resolver por razonamiento). **Diferencial principal a responder: autoinmune (08)** — la imagen "sin calcio" está descrita en duda y es el distractor, no la clave (la ausencia de calcio no excluye TB `[ref: REF-29, REF-30, REF-31]`). 16 líneas; ninguna categoría sin candidatos o sin justificación de descarte.
+>
+> **2ª ronda (2026-06-21):** diferencial reorganizado por CATEGORÍAS ETIOLÓGICAS, con favor/contra y literatura ampliada (REF-09 a REF-71).
 
 ## Mapa del diferencial
 
@@ -24,7 +26,7 @@ La insuficiencia suprarrenal primaria ([[01-insuficiencia-suprarrenal-primaria]]
 
 | # | Hipótesis | Estado | Confianza | Fichero |
 |---|-----------|--------|-----------|---------|
-| 05 | **Tuberculosis sistémica / adrenalitis TB** | **reforzada**; imagen ya no penaliza (atrofia sin calcio = TB quemada) | **media** | [05](05-tuberculosis-sistemica.md) |
+| 05 | **Tuberculosis sistémica / adrenalitis TB** | **reforzada — ETIOLOGÍA A DEFENDER** (gestalt: epidemiología + Quantiferon+ + huella TB; criterios dx cumplidos) | **media-alta** | [05](05-tuberculosis-sistemica.md) |
 | 06 | Paracoccidioidomicosis suprarrenal | abierta / en investigación (Paraguay endémico) | media-baja | [06](06-paracoccidioidomicosis.md) |
 | 07 | Histoplasmosis diseminada y otras micosis | abierta (penalizada por imagen: cursa con aumento) | baja-media | [07](07-histoplasmosis-micosis.md) |
 
@@ -32,7 +34,7 @@ La insuficiencia suprarrenal primaria ([[01-insuficiencia-suprarrenal-primaria]]
 
 | # | Hipótesis | Estado | Confianza | Fichero |
 |---|-----------|--------|-----------|---------|
-| 08 | **Adrenalitis autoinmune / APS-2** | abierta; la **imagen (atrofia sin calcio) la favorece** | **media** | [08](08-adrenalitis-autoinmune-aps.md) |
+| 08 | **Adrenalitis autoinmune / APS-2** | **DIFERENCIAL PRINCIPAL** (a responder; se descartaría con anti-21-OH) | **media** | [08](08-adrenalitis-autoinmune-aps.md) |
 
 ### 🧬 Genética / congénita (etiología del síndrome 01)
 
@@ -76,8 +78,8 @@ Comparación por **poder explicativo / parsimonia / coherencia temporal / graved
 
 - **Síndrome ganador: 01 (insuficiencia suprarrenal primaria).** Único mecanismo que integra los hallazgos pivote (hiponatremia hipoosmolar + **K alto-normal + acidosis** + tendencia hipotensiva + urea alta + clínica digestiva crónica + suprarrenales atróficas). La cita decisiva de 2ª ronda: el patrón **Na↓/K↑/acidosis** es la firma del **déficit mineralocorticoide** `[ref: REF-52]`, lo que separa el caso de la simple depleción por vómito.
 - **El debate ahora es ETIOLÓGICO, no sindrómico.** Dentro del síndrome 01 compiten cuatro categorías por la causa:
-  - **Infecciosa (05 TB líder):** mayor probabilidad pre-test por Paraguay + Quantiferon+ + granuloma. La 2ª ronda **resolvió la tensión de imagen**: la calcificación falta en ~50% de las TB y aumenta con el tiempo, y la TB "primero aumenta y luego atrofia" `[ref: REF-29, REF-30, REF-31]` → atrofia sin calcio **es compatible** con TB quemada. Las **micosis endémicas** (06 PCM, 07 histoplasmosis) entran como rivales infecciosos reales `[ref: REF-23, REF-24]`.
-  - **Autoinmune (08):** la **imagen le encaja mejor que a nadie** (atrofia sin calcio desde el inicio `[ref: REF-31]`), pero la epidemiología (varón, zona endémica) la posterga. Desempate barato: **anti-21-OH** `[ref: REF-16]`.
+  - **Infecciosa (05 TB — ETIOLOGÍA A DEFENDER):** la respuesta del caso por gestalt. Probabilidad pre-test máxima (Paraguay + zona endémica donde las infecciosas dominan `[ref: REF-23]`) + **Quantiferon+** (positivo limpio) + granuloma + derrames + inflamación crónica `[caso]`. El dx de TB suprarrenal no exige cultivo positivo sino una **constelación** (insuficiencia cortical + TB extra-adrenal + infección + imagen + prueba terapéutica) que el caso **ya cumple** `[ref: REF-72]`; el **BAL negativo no excluye** TB paucibacilar (baciloscopia ~26% `[ref: REF-73]`); y **sin calcio NO excluye TB** (calcifica ~50%, crece y luego atrofia `[ref: REF-29, REF-30, REF-31]`). Las **micosis endémicas** (06 PCM `[ref: REF-75]`, 07 histoplasmosis) quedan como rivales infecciosos menores a excluir con serología fúngica `[ref: REF-23, REF-24]`.
+  - **Autoinmune (08 — DIFERENCIAL PRINCIPAL, a responder):** es el rival real porque la imagen no-calcificada también le encaja `[ref: REF-31]`. Pero la imagen del caso está descrita **en duda** ("quizá ligeramente... de menor tamaño"), no como atrofia marcada → **distractor, no clave**; y la epidemiología + huella TB inclinan a infección `[ref: REF-23]`. Se descartaría con **anti-21-OH** `[ref: REF-16]` (negativos → confirma la vía TB). Nombrarla demuestra que no hubo anclaje.
   - **Genética (14 X-ALD):** no se puede no pensarla en un **varón joven** con Addison; caso espejo de 32 años con VLCFA altos `[ref: REF-10]`. Accionable con **VLCFA**.
   - **Vascular (12 SAF):** improbable; solo sobrevive como infarto antiguo ya atrofiado `[ref: REF-54, REF-56]`.
 - **Categorías descartadas/improbables y por qué:**

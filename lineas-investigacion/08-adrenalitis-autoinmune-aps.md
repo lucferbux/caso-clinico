@@ -4,9 +4,9 @@
 
 ## Estado
 
-- **Estado:** abierta · _en investigación_ (la morfología adrenal la favorece; epidemiología y origen la frenan)
-- **Confianza:** media _(imagen compatible; falta anti-21-OH)_
-- **Última actualización:** 2026-06-21
+- **Estado:** **DIFERENCIAL PRINCIPAL de la TB** ([[05-tuberculosis-sistemica]]) — a responder explícitamente, no a abandonar; se descartaría con anti-21-OH
+- **Confianza:** media _(la imagen no-calcificada le encaja; pero está descrita "en duda" y la epidemiología favorece la TB)_
+- **Última actualización:** 2026-06-22 (versión final — diferencial principal; la respuesta del caso es TB)
 
 ## Hipótesis
 

@@ -686,3 +686,45 @@ Detalles completos del protocolo y los endpoints en [Metodología y protocolo de
 - **Recuperado:** 2026-06-21 vía Europe PMC (search, query: "cyclic vomiting syndrome adults diagnosis")
 - **Hallazgo citado:** "a 20-year-old male... a highly stereotyped pattern... Upper gastrointestinal endoscopy... demonstrated proximal gastric congestion without erosions or ulceration... a classic four-phase cyclic pattern consistent with cyclic vomiting syndrome (CVS)."
 - **Usado en:** [[16-vomitos-ciclicos-cannabinoide]]
+
+---
+
+> **3ª ronda (2026-06-22) — cierre etiológico hacia TB suprarrenal (REF-72 a REF-75).** Búsqueda dirigida a validar la hipótesis tuberculosa: criterios diagnósticos de TB suprarrenal (no exigen cultivo positivo), naturaleza paucibacilar (baciloscopia poco sensible), TB como causa histórica/líder de Addison, y micosis endémica latinoamericana como antagonista a no perder.
+
+### 🦠 INFECCIOSA (3ª ronda — eje tuberculoso)
+
+### [REF-72] Clinical characteristics of nine cases of adrenal tuberculosis and literature review.
+- **IDs:** PMID: 41214357 · PMCID: PMC13194323 · DOI: 10.1007/s11255-025-04897-1
+- **Autores:** Ye D, Gan N, Yang Y, Fei Z, Liu H, Liu X, Xia L. · **Revista:** International Urology and Nephrology · **Año:** 2026 · **Open Access:** sí
+- **URL:** https://europepmc.org/article/MED/41214357
+- **Tipo de evidencia:** serie de casos (n=9) + revisión de literatura (206 casos de 60 publicaciones)
+- **Recuperado:** 2026-06-22 vía Europe PMC (search EXT_ID:41214357; query origen: "adrenal tuberculosis diagnosis difficulty negative culture biopsy paucibacillary")
+- **Hallazgo citado:** "Adrenal tuberculosis predominantly affects both adrenal glands. Pathological findings are granulomatous inflammation and caseous necrosis. The diagnosis of adrenal tuberculosis relies on evidence of adrenal cortical insufficiency, extra-adrenal tuberculosis, laboratory confirmation of tuberculosis infection, characteristic imaging features, pathological examination, and diagnostic anti-tuberculosis therapy." · "Among 160 cases detailing treatment regimens, 152 cases (95%) underwent anti-tuberculosis therapy."
+- **Usado en:** [[05-tuberculosis-sistemica]], [[01-insuficiencia-suprarrenal-primaria]]
+
+### [REF-73] Optimizing pathological diagnosis of tuberculosis: qPCR outperforms acid-fast staining in formalin-fixed paraffin-embedded tissues and enables resistance profiling.
+- **IDs:** PMID: 42040586 · PMCID: PMC13106081 · DOI: 10.3389/fmed.2026.1736555
+- **Autores:** Hu Y, Liu P, Mei M, Quan C, Liu Q. · **Revista:** Frontiers in Medicine · **Año:** 2026 · **Open Access:** sí
+- **URL:** https://europepmc.org/article/MED/42040586
+- **Tipo de evidencia:** estudio diagnóstico comparativo (n=1.050 muestras FFPE de inflamación granulomatosa)
+- **Recuperado:** 2026-06-22 vía Europe PMC (search EXT_ID:42040586)
+- **Hallazgo citado:** "qPCR demonstrated a higher positive rate compared to AFB staining (63.43% vs. 26.29%, p < 0.001)... exhibits high effectiveness in the pathological diagnosis of tuberculosis when culture methods are not feasible." → la **baja sensibilidad de la baciloscopia (~26%)** explica que un BAL con BAAR/PCR-TB negativos **no excluya** TB (enfermedad paucibacilar).
+- **Usado en:** [[05-tuberculosis-sistemica]]
+
+### [REF-74] Tuberculosis of the adrenal gland: a case report and review of the literature of infections of the adrenal gland.
+- **IDs:** PMID: 25165474 · PMCID: PMC4138934 · DOI: 10.1155/2014/876037
+- **Autores:** Upadhyay J, Sudhindra P, Abraham G, Trivedi N. · **Revista:** International Journal of Endocrinology · **Año:** 2014 · **Open Access:** sí
+- **URL:** https://europepmc.org/article/MED/25165474
+- **Tipo de evidencia:** revisión + case report
+- **Recuperado:** 2026-06-22 vía Europe PMC (search EXT_ID:25165474)
+- **Hallazgo citado:** "Infections of the adrenal glands remain an important cause of adrenal insufficiency, especially in the developing world. Indeed, when Thomas Addison first described the condition that now bears his name over 150 years ago, the vast majority of cases were attributable to tuberculosis."
+- **Usado en:** [[05-tuberculosis-sistemica]]
+
+### [REF-75] Acute adrenal insufficiency due to paracoccidiodomycosis. Report of 2 cases.
+- **IDs:** PMID: 32874849 · PMCID: PMC7452247 · DOI: 10.1016/j.mmcr.2020.08.001
+- **Autores:** Motta JC, Barrera EC. · **Revista:** Medical Mycology Case Reports · **Año:** 2020 · **Open Access:** sí
+- **URL:** https://europepmc.org/article/MED/32874849
+- **Tipo de evidencia:** case report (2 casos)
+- **Recuperado:** 2026-06-22 vía Europe PMC (search EXT_ID:32874849; query origen: "adrenal tuberculosis primary adrenal insufficiency Latin America South America cause")
+- **Hallazgo citado:** "Paracoccidiodomycosis is an endemic infection in Latin America. It can affect several organs... We describe two cases of paracoccidiodomycosis presenting with Addison's disease... Antifungal management and hormone supplementation were given, achieving complete resolution of symptoms." → antagonista infeccioso latinoamericano que **se trata distinto** (antifúngico, no tuberculostáticos): a no perder hasta tener micología.
+- **Usado en:** [[06-paracoccidioidomicosis]], [[05-tuberculosis-sistemica]]

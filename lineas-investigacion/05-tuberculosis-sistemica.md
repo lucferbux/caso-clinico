@@ -4,9 +4,9 @@
 
 ## Estado
 
-- **Estado:** reforzada como etiología probable; **tensión de imagen resuelta a favor (ausencia de calcio NO excluye TB)**
-- **Confianza:** media _(epidemiología e historia a favor; la imagen ya no resta tanto; cultivos pendientes)_
-- **Última actualización:** 2026-06-21 (2ª ronda de literatura)
+- **Estado:** **reforzada — ETIOLOGÍA A DEFENDER** (respuesta del caso por gestalt clínico)
+- **Confianza:** **media-alta** _(como diagnóstico de trabajo; sin confirmación micro porque el caso no la aporta — es de razonamiento)_
+- **Última actualización:** 2026-06-22 (versión final — caso de razonamiento, respuesta = TB)
 
 ## Hipótesis
 
@@ -41,6 +41,11 @@ Existe **infección tuberculosa** (activa o secuelar reactivada) que actúa como
 | 2026-06-18 | Europe PMC /search | `adrenal tuberculosis CT imaging size calcification enlargement atrophy` | 6 | [[referencias#REF-03]] |
 | 2026-06-18 | Europe PMC fullText BioC | `PMC11919078` (revisión radiológica) | — | [[referencias#REF-03]] |
 | 2026-06-18 | Europe PMC /search | `adrenal tuberculosis bilateral enlargement calcification computed tomography atrophy chronic` | 6 | (sin refs nuevas útiles) |
+| 2026-06-22 | Europe PMC /search | `adrenal tuberculosis diagnosis difficulty negative culture biopsy paucibacillary` | 12 | [[referencias#REF-72]], [[referencias#REF-73]] |
+| 2026-06-22 | Europe PMC /search | `interferon gamma release assay QuantiFERON adrenal tuberculosis Addison diagnosis` | 12 | [[referencias#REF-72]] |
+| 2026-06-22 | Europe PMC /search | `adrenal tuberculosis primary adrenal insufficiency Latin America South America cause` | 12 | [[referencias#REF-75]] |
+| 2026-06-22 | Europe PMC /search | `adrenal tuberculosis response antituberculous therapy diagnosis bilateral adrenal insufficiency case series` | 15 | [[referencias#REF-74]], [[referencias#REF-32]] |
+| 2026-06-22 | Europe PMC EXT_ID | `41214357 / 42040586 / 25165474 / 32874849` (verificación directa) | 4 | [[referencias#REF-72]], [[referencias#REF-73]], [[referencias#REF-74]], [[referencias#REF-75]] |
 
 ## Evidencia de literatura
 
@@ -76,3 +81,25 @@ Búsquedas añadidas (Europe PMC / NCBI efetch): `adrenal tuberculosis CT calcif
 - En cohortes de zona endémica, la **histoplasmosis** puede superar a la TB como causa infecciosa de Addison (45% vs 15%) y es **clínicamente indistinguible** `[ref: REF-23, REF-24]`. En un paciente sudamericano, la **paracoccidioidomicosis** ([[06-paracoccidioidomicosis]]) y la **histoplasmosis** ([[07-histoplasmosis-micosis]]) compiten ahora con la TB dentro del bloque infeccioso. El Quantiferon+ y el granuloma calcificado mantienen a la TB en cabeza, pero **no excluyen** una micosis concomitante.
 
 **Δ de esta sesión:** la "tensión de imagen" de la 1ª ronda queda **resuelta a favor de la compatibilidad con TB** (atrofia sin calcio = TB quemada plausible) `[ref: REF-29, REF-30, REF-31]`. El antagonista etiológico ya no es solo la autoinmune ([[08-adrenalitis-autoinmune-aps]]) sino también las **micosis endémicas** ([[06-paracoccidioidomicosis]], [[07-histoplasmosis-micosis]]) y la **genética** ([[14-adrenoleucodistrofia-x]]). Desempate pendiente: **cultivo de micobacterias + anti-21-OH + serología/antígeno fúngico (+ VLCFA si todo lo anterior negativo)**.
+
+## Actualización 2026-06-22 (versión final — caso de razonamiento, respuesta = TB)
+
+Contexto del caso: es un ejercicio de **razonamiento** (se resuelve con lo dado; las pruebas confirmatorias —cortisol/ACTH, anti-21-OH, cultivo— **no se aportan** a propósito). Por tanto la respuesta se alcanza por **gestalt clínico**, y en frío ese gestalt apunta a **TB**: máxima probabilidad pre-test (paraguayo de zona endémica `[ref: REF-04, REF-23, REF-74]`), **Quantiferon+** (positivo limpio), huella TB radiológica abundante, y criterios diagnósticos de TB suprarrenal cumplidos sin necesidad de cultivo `[ref: REF-72]`.
+
+**Sobre la imagen (clave para no descartar la TB):** el TAC describe las suprarrenales **en duda** — "morfología normal, **quizá** ligeramente hipodensas y de menor tamaño" `[caso]` — **no** como atrofia marcada e inequívoca. No es, por tanto, el sello autoinmune; es el **distractor** del caso. Y la ausencia de calcio **no excluye TB**: calcifica solo ~42-50%, aumenta con el tiempo, y la TB **crece primero y luego atrofia** `[ref: REF-29, REF-30, REF-31]`.
+
+**1) La micro negativa del BAL NO refuta la TB suprarrenal (punto débil neutralizado):**
+- La TB suprarrenal se diagnostica por una **constelación**, no por un cultivo positivo obligatorio — `[ref: REF-72]` — "The diagnosis of adrenal tuberculosis relies on evidence of adrenal cortical insufficiency, extra-adrenal tuberculosis, laboratory confirmation of tuberculosis infection, characteristic imaging features, pathological examination, and **diagnostic anti-tuberculosis therapy**." ([[referencias#REF-72]]). El caso reúne ya **3 de esos pilares**: insuficiencia cortical (síndrome 01), TB extra-adrenal (huella apical + granuloma + Quantiferon+) y confirmación de infección TB (Quantiferon+) `[caso]`.
+- La **baciloscopia es poco sensible** (positiva en ~26% de los tejidos granulomatosos, frente al 63% de la PCR), y el cultivo "no siempre es factible" — `[ref: REF-73]` — "qPCR demonstrated a higher positive rate compared to AFB staining (63.43% vs. 26.29%)" ([[referencias#REF-73]]). → Un **BAL con BAAR/PCR-TB negativos es esperable** en TB paucibacilar y **no excluye** afectación tuberculosa `[caso]`.
+
+**2) Epidemiología latinoamericana e histórica a favor:**
+- "When Thomas Addison first described the condition... the **vast majority of cases were attributable to tuberculosis**" y la infección sigue siendo causa importante de insuficiencia suprarrenal "**especially in the developing world**" — `[ref: REF-74]` ([[referencias#REF-74]]). Concordante con `[ref: REF-04, REF-05, REF-32]`. En un **varón paraguayo**, la probabilidad pre-test de etiología TB es la más alta del diferencial.
+
+**3) Tratamiento eficaz → cierra el argumento de "no perder" a favor de la TB:**
+- En la serie/revisión, **95% recibió tuberculostáticos** con curación/mejoría en la práctica totalidad — `[ref: REF-72]` ("152 cases (95%) underwent anti-tuberculosis therapy"). → La **prueba terapéutica antituberculosa** es a la vez diagnóstica y curativa, y forma parte de los criterios `[ref: REF-72]`.
+
+**Steelman que sobrevive (lo que impide pasar de "líder" a "probada"):**
+- La **imagen** (atrofia **sin** calcio) sigue encajando **igual o mejor** con la **autoinmune** (que atrofia desde el inicio y no calcifica `[ref: REF-31]`); la TB explica la atrofia solo asumiendo fase **quemada** tras años. Por eso el **anti-21-hidroxilasa** sigue siendo el desempate barato `[ref: REF-16]`.
+- En Paraguay, la **paracoccidioidomicosis** es un antagonista infeccioso real que **se trata distinto** (antifúngico) y cura — `[ref: REF-75]` ([[referencias#REF-75]]); el Quantiferon **no la excluye**. No perderla exige **serología/antígeno fúngico**.
+
+**Δ de esta sesión:** la TB se fija como **etiología a defender**, confianza **media-alta** como diagnóstico de trabajo. El **diferencial principal a responder** sigue siendo la autoinmune ([[08-adrenalitis-autoinmune-aps]]), que se descartaría con **anti-21-OH** `[ref: REF-16]` (negativos → confirma la vía TB). **Nota de trazabilidad de la sesión:** este caso pasó por tres lecturas — (1) TB líder, (2) reequilibrio a empate con sospecha de sesgo, (3) versión final tras saber que es un ejercicio de razonamiento sin pruebas confirmatorias: en frío, el gestalt (epidemiología + Quantiferon+ + huella TB + criterios `[ref: REF-72]`) sostiene la **TB**, con la imagen "en duda" como distractor. El argumento de "parsimonia" de la 1ª lectura se mantiene **retirado** como decisivo (no hay TB activa diseminada probada: BAL negativo, pulmón cicatricial). Confirmación que se pediría: cultivo / prueba terapéutica `[ref: REF-72]` + anti-21-OH + cortisol/ACTH.
